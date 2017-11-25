@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsaveliev.github.io/about/</loc>
+    <lastmod>2017-11-26T00:21:31+04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/posts/my-third-post/</loc>
     <lastmod>2017-11-25T23:58:40+04:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>https://dsaveliev.github.io/</loc>
-    <lastmod>2017-11-25T23:58:40+04:00</lastmod>
+    <lastmod>2017-11-26T00:21:31+04:00</lastmod>
     <priority>0</priority>
   </url>
   
