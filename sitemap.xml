@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsaveliev.github.io/about/</loc>
+    <lastmod>2017-11-26T00:21:31+04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/post/how-does-ssl-tls-work/</loc>
     <lastmod>2017-11-24T23:50:10+04:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>https://dsaveliev.github.io/</loc>
-    <lastmod>2017-11-24T23:50:10+04:00</lastmod>
+    <lastmod>2017-11-26T00:21:31+04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,12 +37,6 @@
   
   <url>
     <loc>https://dsaveliev.github.io/tags/security/</loc>
-    <lastmod>2017-11-24T23:50:10+04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dsaveliev.github.io/categories/security/</loc>
     <lastmod>2017-11-24T23:50:10+04:00</lastmod>
     <priority>0</priority>
   </url>
