@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://dsaveliev.github.io/post/deferrable-sql-constraints/</loc>
+    <lastmod>2017-10-20T21:09:14+04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/post/consistent-hash-rings-theory-and-implementation/</loc>
     <lastmod>2017-10-11T02:50:57+04:00</lastmod>
   </url>
@@ -118,6 +123,12 @@
   <url>
     <loc>https://dsaveliev.github.io/tags/consistent-hashing/</loc>
     <lastmod>2017-10-11T02:50:57+04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dsaveliev.github.io/tags/constraints/</loc>
+    <lastmod>2017-10-20T21:09:14+04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -225,7 +236,7 @@
   
   <url>
     <loc>https://dsaveliev.github.io/tags/sql/</loc>
-    <lastmod>2017-08-16T21:02:03+04:00</lastmod>
+    <lastmod>2017-10-20T21:09:14+04:00</lastmod>
     <priority>0</priority>
   </url>
   
