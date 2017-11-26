@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://dsaveliev.github.io/tags/</loc>
+    <lastmod>2017-11-26T00:21:31+04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/post/linearizability-versus-serializability/</loc>
     <lastmod>2017-11-25T20:59:26+04:00</lastmod>
   </url>
