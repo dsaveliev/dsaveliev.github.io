@@ -21,6 +21,7 @@ header,header.a{
 		font-size: 100%;
 		margin-left: 7.5rem;
 		margin-right: 7.5rem;
+		color: #424949;
 	}
 }
 @media all and (max-width:840px){
