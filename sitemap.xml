@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsaveliev.github.io/post/debugging-an-evil-go-runtime-bug/</loc>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/post/write-code-that-is-easy-to-delete/</loc>
     <lastmod>2017-12-05T22:58:00+04:00</lastmod>
   </url>
@@ -207,13 +212,13 @@
   
   <url>
     <loc>https://dsaveliev.github.io/tags/go/</loc>
-    <lastmod>2017-12-04T23:45:45+04:00</lastmod>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dsaveliev.github.io/tags/gotchas/</loc>
-    <lastmod>2017-10-04T15:29:23+04:00</lastmod>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -231,7 +236,7 @@
   
   <url>
     <loc>https://dsaveliev.github.io/</loc>
-    <lastmod>2017-12-05T22:58:00+04:00</lastmod>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -260,8 +265,20 @@
   </url>
   
   <url>
+    <loc>https://dsaveliev.github.io/tags/kernel/</loc>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dsaveliev.github.io/tags/kubernetes/</loc>
     <lastmod>2017-12-04T23:45:45+04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dsaveliev.github.io/tags/linux/</loc>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -273,7 +290,7 @@
   
   <url>
     <loc>https://dsaveliev.github.io/post/</loc>
-    <lastmod>2017-12-05T22:58:00+04:00</lastmod>
+    <lastmod>2017-12-10T01:02:30+03:00</lastmod>
     <priority>0</priority>
   </url>
   
