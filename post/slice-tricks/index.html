@@ -1,58 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Slice Tricks</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Slice Tricks</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Slice Tricks">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Slice Tricks">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:image:src" content="">
+	
+	
+	<meta name="og:title" content="Slice Tricks">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://dsaveliev.github.io/post/slice-tricks/">
+	<meta name="og:site_name" content="Slice Tricks">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:author" content="">
+	<meta name="article:tag" content="go slices ">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="/js/caption.js"></script>
+</head>
+<body>
+
+<header >
+	<a href="/" style="float: left;color:#777;"><strong>Home</strong>
+	</a>
+	<a href="/index.xml" style="color:#777;float: left;"><strong>
+		&nbsp;
+	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+</strong></a>
+<a href="https://dsaveliev.github.io/about/" style="color:#777;"><strong>About</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://dsaveliev.github.io/tags/" style="color:#777;"><strong>Tags</strong></a>
+
+</header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
     
-    <meta name="description" content="">
-    
-    <meta itemprop="name" content="Slice Tricks">
-    <meta itemprop="description" content="">
-    
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Slice Tricks">
-    <meta name="twitter:description" content="">
-    
-    
-    <meta name="og:title" content="Slice Tricks">
-    <meta name="og:description" content="">
-    <meta name="og:type" content="website">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="/js/caption.js"></script>
 
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110160821-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-110160821-1');
-    </script>
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+    	el.style.display='none';
+    }
+  };
 
-  </head>
+  tick();
+}
 
-  <body>
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
 
-    <header>
-      
-      <a href="https://dsaveliev.github.io/about/">/About</a>&nbsp;·&nbsp;&nbsp;
-      
-      <a href="https://dsaveliev.github.io/tags/">/Tags</a>&nbsp;·&nbsp;&nbsp;
-      
-      <a href="/post">/posts</a>
-    </header>
-
-
-
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
 
 <div class="content">
-	<h1>Slice Tricks <aside><a href="/tags/go/" class="w3-tag">/go</a>&nbsp;<a href="/tags/slices/" class="w3-tag">/slices</a>&nbsp; </aside></h1>
+	<h1>Slice Tricks <aside><a href="/tags/go/" class="w3-tag">/go</a>&nbsp;&nbsp;&nbsp;<a href="/tags/slices/" class="w3-tag">/slices</a>&nbsp;&nbsp;&nbsp;</aside></h1>
 	
 </div>
 
 
-<footer>
+
 
 	<p><small><em>Written September 25, 2017. </em>
 		
@@ -64,11 +112,13 @@
 	</p>
 
 
+
+
+
+
+<footer>
+	<p>"On the Internet, nobody knows you're a dog." - <em>Peter Steiner</em></p>
+	<p>This site was made with <a href="https://github.com/gohugoio/hugo">Hugo</a> using theme <a href="https://github.com/schollz/onetwothree">onetwothree</a> made by <a href="https://github.com/schollz">schollz</a>.</p>
 </footer>
-
-
-
-
-
 </body>
 </html>
