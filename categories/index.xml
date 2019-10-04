@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dmitry Saveliev</title>
-    <link>http://dsaveliev.github.io/categories/</link>
+    <link>https://dsaveliev.github.io/categories/</link>
     <description>Recent content in Categories on Dmitry Saveliev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
     
-	<atom:link href="http://dsaveliev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsaveliev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>about</title>
+      <link>https://dsaveliev.github.io/categories/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://dsaveliev.github.io/categories/about/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
